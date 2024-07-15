@@ -1,0 +1,22 @@
+button {
+  height: 50px;
+  width: 50px;
+  margin: 0 10px 10px 0px;
+  border-radius: 40px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: white;
+  color: black;
+}
+button:active {
+  color: white;
+  background-color: rgb(135, 249, 249);
+}
+p {
+  margin-top: 70px;
+  font-weight: bold;
+  font-size: 30px;
+}

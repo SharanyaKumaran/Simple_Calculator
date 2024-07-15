@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Calculator</title>
+    <link rel="stylesheet" href="calci.css" />
+  </head>
+  <body>
+    <center>
+      <h1>Calculator</h1>
+      <h6>It's a simple Calculator</h6>
+      <p id="answerDisplay"></p>
+      <hr style="width: 250px; margin-bottom: 20px" />
+      <div>
+        <div>
+          <button onclick="calci('1')">1</button>
+          <button onclick="calci('2')">2</button>
+          <button onclick="calci('3')">3</button>
+          <button onclick="calci('+')">+</button>
+        </div>
+        <div>
+          <button onclick="calci('4')">4</button>
+          <button onclick="calci('5')">5</button>
+          <button onclick="calci('6')">6</button>
+          <button onclick="calci('-')">-</button>
+        </div>
+        <div>
+          <button onclick="calci('7')">7</button>
+          <button onclick="calci('8')">8</button>
+          <button onclick="calci('9')">9</button>
+          <button onclick="calci('*')">*</button>
+        </div>
+        <div>
+          <button onclick="clearDisplay()">C</button>
+          <button onclick="calci('0')">0</button>
+          <button onclick="calci('/')">/</button>
+          <button onclick="calculate()">=</button>
+        </div>
+      </div>
+    </center>
+    <script src="calci.js"></script>
+  </body>
+</html>
